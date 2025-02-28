@@ -58,7 +58,7 @@ else{
 <!DOCTYPE html>
 <html>
     <head>
-         <title>SKY BANK | LOGIN</title>
+         <title>AJOHDIT MICRO-FINANCE | LOGIN</title>
          <link rel="icon" href="images/icc.ico" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/native-toast.css">
@@ -164,10 +164,10 @@ body {
     <body>
         <form class="login-form"  method="POST">
             <div class="login-form__logo-container">
-                <h3 style="color: white; text-align: center;">SKY BANK LIMITED PAKISTAN</h3>
+                <h3 style="color: white; text-align: center;">AJOHDIT MICRO-FINANCE</h3>
             </div>
             <div class="login-form__content">
-                <div class="login-form__header">Welcome on Page</div>
+                <div class="login-form__header">Welcome</div>
                 <input class="login-form__input" type="email" name="email" placeholder="Username" required autofocus>
                 <input class="login-form__input" type="password" name="pass" placeholder="Password" required>
                 <button class="login-form__button" type="submit" name="log">Login</button>
