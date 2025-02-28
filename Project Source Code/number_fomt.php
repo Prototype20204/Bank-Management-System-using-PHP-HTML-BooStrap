@@ -7,15 +7,15 @@ function rup_format($rup) {
         if(isset($number)){
         $number = (0+str_replace(",", "", $number));
         if (!is_numeric($number)) return false;
-        if     ($number > 1000000000000) return 'PKR '.round(($number/1000000000000), 2).'T';
-        elseif ($number == 1000000000000) return 'PKR '.round(($number/1000000000000), 2).'.00T';
-        elseif ($number > 1000000000) return 'PKR '.round(($number/1000000000), 2).'B';
-        elseif ($number == 1000000000) return 'PKR '.round(($number/1000000000), 2).'.00B';
-        elseif ($number > 1000000) return 'PKR'.round(($number/1000000), 2).'M';
+        if     ($number > 1000000000000) return 'SSD '.round(($number/1000000000000), 2).'T';
+        elseif ($number == 1000000000000) return 'SSD '.round(($number/1000000000000), 2).'.00T';
+        elseif ($number > 1000000000) return 'SSD '.round(($number/1000000000), 2).'B';
+        elseif ($number == 1000000000) return 'SSD '.round(($number/1000000000), 2).'.00B';
+        elseif ($number > 1000000) return 'SSD'.round(($number/1000000), 2).'M';
         elseif ($number == 1000000) return round(($number/1000000), 2).'.00M';
-        elseif ($number > 1000) return 'PKR '.round(($number/1000), 2).'K';
-        elseif ($number == 1000) return 'PKR '.round(($number/1000), 2).'.00K';
-        elseif ($number < 1000) return 'PKR '.$number.'.00';
+        elseif ($number > 1000) return 'SSD '.round(($number/1000), 2).'K';
+        elseif ($number == 1000) return 'SSD '.round(($number/1000), 2).'.00K';
+        elseif ($number < 1000) return 'SSD '.$number.'.00';
         return rup_format($number);
     }else{
         if (isset($number)) {
